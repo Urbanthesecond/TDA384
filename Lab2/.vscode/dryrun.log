@@ -1,0 +1,6 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'c:/Users/Dennis/Documents/TDA384/Lab2'
+make -C lib
+erl -compile *.erl lib/*.erl
+make: Leaving directory 'c:/Users/Dennis/Documents/TDA384/Lab2'
+ 
